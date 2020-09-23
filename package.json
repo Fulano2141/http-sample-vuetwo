@@ -2,6 +2,8 @@
   "name": "http-sample-vuetwo",
   "version": "0.1.0",
   "private": true,
+  "author": "Cosme Fulano",
+  "description": "Example of HTTP request with firebase and Vue-Resource https://github.com/yyx990803/vue-resource/blob/master/docs/http.md and using this url https://github.com/yyx990803/vue-resource/blob/master/docs/recipes.md , https://medialize.github.io/URI.js/uri-template.html",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -9,7 +11,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-resource": "^1.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
